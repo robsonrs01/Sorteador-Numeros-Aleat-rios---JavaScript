@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+img{
+    width: 583px;
+    height: 374px;
+    
+    
+
+}
+
+.input-min{
+    
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    width: 342px;
+    height: 74px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    
+}
+
+.input-max{
+    
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    width: 342px;
+    height: 74px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 10px;
+   
+    }
+
+.sortear-button{
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    width: 299px;
+    height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.8;
+}
